@@ -1,0 +1,14 @@
+<section class="animes-container">
+    <div class="anime-list-card" *ngFor="let anime of animes">
+        <a routerLink="/animes/{{anime.id}}" class="anime-link">
+            <img [src]="anime.img">
+            <h2 class="anime-name">
+                {{anime.name}}
+            </h2>
+            <p class="anime-sinopse">
+                {{anime.sinopse}}
+            </p>
+            <button class="anime-button" type="button">Assistir</button>
+        </a>
+    </div>
+</section>

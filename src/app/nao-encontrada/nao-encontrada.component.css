@@ -1,0 +1,27 @@
+/* Estilo do contêiner principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a altura total da tela */
+    background-color: #1e1e1e; /* Fundo escuro */
+    color: white;
+    text-align: center;
+}
+
+/* Estilo do ícone */
+.container i {
+    font-size: 100px; /* Tamanho grande para o ícone */
+    color: #ff6347; /* Cor vibrante para o ícone */
+    margin-bottom: 20px;
+}
+
+/* Estilo da mensagem de erro */
+.container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+

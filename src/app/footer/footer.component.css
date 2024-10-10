@@ -1,0 +1,46 @@
+.footer1 {
+    background-color: black; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Flexbox para alinhar os itens horizontalmente */
+    justify-content: space-between; /* Espaço entre as divs */
+    align-items: center; /* Alinha verticalmente os itens */
+    flex-wrap: wrap; /* Permite que os elementos se ajustem em telas menores */
+
+}
+
+.footer1 h2 {
+    margin: 0; /* Remove a margem padrão do h2 */
+    font-size: 24px;
+}
+
+.footer1 .div1 {
+    flex: 1;
+}
+
+.footer1 .div2 {
+    flex: 2;
+    font-size: 16px;
+    text-align: center; /* Alinha o texto à direita */
+}
+
+.footer1 a {
+    color: red; /* Cor de links */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.footer1 a:hover {
+    color: red; /* Muda a cor do link ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    .footer1 {
+        flex-direction: column; /* Empilha as divs verticalmente em telas pequenas */
+        text-align: center; /* Centraliza o texto */
+    }
+    .footer1 .div2 {
+        text-align: center; /* Centraliza o texto na div2 */
+        margin-top: 10px; /* Adiciona espaçamento entre as divs */
+    }
+}

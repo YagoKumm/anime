@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(71, 71, 71);
+}
+
+
+body, html {
+    margin: 0; /* Remove a margem padrão do body e do html */
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+input{
+    background-color: gray;
+    border-radius: 10px;
+}
+input::placeholder{
+    color: white;
+    opacity: 1;
+}

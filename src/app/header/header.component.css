@@ -1,0 +1,77 @@
+.div1 {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle {
+    display: flex;
+}
+
+.tittle1, .tittle2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.tittle1 {
+    color: red;
+}
+
+.tittle2 {
+    color: rgb(45, 196, 247);
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    background-color: rgb(45, 196, 247);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(35, 156, 197);
+}
+
+.input-container {
+    position: relative; /* Necessário para que o ícone possa ser posicionado corretamente */
+}
+
+input {
+    padding: 10px;
+    padding-right: 35px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); /* Centraliza o ícone verticalmente */
+    color: white;
+    cursor: pointer;
+}
+a{
+    display: flex;
+    text-decoration: none;
+}

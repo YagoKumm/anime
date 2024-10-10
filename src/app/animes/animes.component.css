@@ -1,0 +1,70 @@
+/* Estilo do contêiner principal */
+.animes-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem linha */
+    justify-content: space-around; /* Espaço entre os cards */
+    gap: 20px; /* Espaço entre os cards */
+    padding: 20px;
+    background-color: rgb(71, 71, 71); /* Fundo suave */
+}
+
+/* Estilo do card individual */
+.anime-list-card {
+    background-color:  rgb(165, 165, 165);;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para efeito de elevação */
+    width: 250px; /* Largura do card */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+}
+
+.anime-list-card:hover {
+    transform: translateY(-10px); /* Elevação ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao hover */
+}
+
+.anime-link {
+    text-decoration: none;
+    color: inherit; /* Mantém a cor padrão */
+    display: block; /* Faz o link ocupar todo o card */
+    padding: 15px;
+}
+
+.anime-link img {
+    width: 100%;
+    border-bottom: 2px solid #f0f0f0; /* Linha de separação */
+    border-radius: 10px 10px 0 0; /* Arredonda a parte superior do card */
+}
+
+.anime-name {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.anime-sinopse {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Estilo do botão */
+.anime-button {
+    display: block;
+    width: 100%;
+    background-color: #ff6347; /* Tom de vermelho similar a anime */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.anime-button:hover {
+    background-color: #e5533d; /* Efeito de hover no botão */
+}
